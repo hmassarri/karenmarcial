@@ -1,0 +1,147 @@
+/* =Colors
+--------------------*/
+.cream-light {
+	background-color: #FBF5E4;
+}
+.cream-dark {
+    background-color: #F8ECC9;
+}
+.blue-light {
+    background-color: #BCDBE1;
+}
+.blue-med {
+    background-color: #58909A;
+}
+.blue-dark {
+    background-color: #73A9C6;
+}
+.brown-light {
+    background-color: #CDBB99;
+}
+.brown-medium {
+    background-color: #A37E58;
+}
+.brown-dark {
+    background-color: #755C3B;
+}
+.pink-light {
+    background-color: #FBCFCF;
+}
+.pink-dark {
+    background-color: #EB9F9F;
+}
+
+.cream-light-text {
+	color: #FBF5E4;
+}
+.cream-dark-text {
+    color: #F8ECC9;
+}
+.blue-light-text {
+    color: #BCDBE1;
+}
+.blue-med-text {
+    color: #58909A;
+}
+.blue-dark-text {
+    color: #73A9C6;
+}
+.brown-light-text {
+    color: #CDBB99;
+}
+.brown-medium {
+    color: #A37E58;
+}
+.brown-dark-text {
+    color: #755C3B;
+}
+.pink-light-text {
+    color: #FBCFCF;
+}
+.pink-dark-text {
+    color: #EB9F9F;
+}
+
+
+
+
+/* =HTML
+--------------------*/
+body {
+    background-color: #333;
+}
+
+nav {
+    background-color: #ee6e73;
+    border-bottom: 1px solid pink;
+    color: #fff;
+    height: 56px;
+    line-height: 56px;
+    width: 100%;
+}
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    font-family: 'Raleway', sans-serif;
+    color: #BCDBE1;
+    background: url('../img/logo-sm.png') no-repeat;
+    font-size: 2.75em;
+}
+#nav a:link {
+    color: #FBF5E4;
+}
+#nav a:hover {
+    background-color: #FBF5E4;
+    color: #000000 !important;
+}
+
+
+
+/* =sideNav
+--------------------*/
+.side-nav {
+    background-color: #BCDBE1;
+    padding-bottom: 60px;
+}
+
+.collapsible {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin: 0;
+}
+
+.acc-box {
+	height: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-size:2em;
+	padding-top: 70px;
+}
+.acc-content {
+    padding: 20px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-color: #FFFFFF;
+}
+.row.acc-content {
+    margin-bottom: 0px;
+}
+
+.bordered {
+    border: 3px solid #000000;
+}
+
+.userView {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* =Footer
+--------------------*/
+footer.page-footer {
+    margin-top: 0;
+    padding-top: 15px;
+    height: 80px;
+}
